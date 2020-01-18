@@ -1,4 +1,4 @@
-job('example') {
+job('FirstDSLJob') {
     logRotator(-1, 3)
     jdk('Java 8')
     scm {

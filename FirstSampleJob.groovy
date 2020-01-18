@@ -2,7 +2,7 @@ job('FirstDSLJob') {
     logRotator(-1, 3)
     jdk('Java 8')
     scm {
-        github('https://github.com/souravchatterjee1990/firstmavenproj.git', 'master')
+        github('souravchatterjee1990/firstmavenproj.git/', 'master')
     }
     triggers {
         scm('* * * * *')
